@@ -25,9 +25,9 @@ async function insertDoc(doc) {
     console.log(err1);
   }
 //   await db.remove({ hello: 'worl' }, { multi: true }, (err, numRemoved) => {
-//     // numRemoved = 1
-//     console.log(err, numRemoved);
-//   });
+//  // numRemoved = 1
+//  console.log(err, numRemoved);
+//  });
 }
 let pN = 0;
 let countDel;
