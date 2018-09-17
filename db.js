@@ -28,10 +28,6 @@ async function insertDoc(doc) {
 //     // numRemoved = 1
 //     console.log(err, numRemoved);
 //   });
-  // $ push вставляет новые элементы в конец массива
-  // db.update({ _id: 'nomer0' }, { $push: { fruits: 'banana' } }, {}, () => {
-  //   // Теперь массив фруктов - это «яблоко», «оранжевое», «груша», 'банан']
-  // });
 }
 let pN = 0;
 let countDel;
