@@ -30,7 +30,7 @@ function chooseDev(i) {
   arrClient = rDevice.filter(e => e.nameConn === wer);
   return arrClient;
 }
-// let dev ;
+
 // собираем массив для каждого клиента
 function choosePac(i) {
   const dPac = Conn[i].nameConn;
