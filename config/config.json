@@ -1,0 +1,63 @@
+{
+    "Device": [ 
+        {
+            "deviceId": "nomer1",
+            "slaveId": 11,
+            "typeD": "PN",
+            "Conn": "COM",
+            "period": "100",
+            "nameConn": "COM1"
+        },
+        {
+            "deviceId": "nomer2",
+            "slaveId": 21,
+            "typeD": "PW",
+            "Conn": "COM",
+            "interval": "50",
+            "period": "50",
+            "nameConn": "COM0"
+        },
+        {
+            "deviceId": "nomer3",
+            "slaveId": 3,
+            "typeD": "PN",
+            "Conn": "COM",
+            "interval": "50",
+            "period": "50",
+            "nameConn": "COM0"
+        }, {
+            "deviceId": "nomer4",
+            "slaveId": 4,
+            "typeD": "PW",
+            "Conn": "COM",
+            "interval": "50",
+            "period": "50",
+            "nameConn": "COM1"
+        }
+    ],
+    "Connections": [
+        {
+            "typeConn": "COM",
+            "Ncom": "11",
+            "speed": 9600,
+            "bit": 8,
+            "parity": "none",
+            "stopBit": 1,
+            "IP": "127.0.0.1",
+            "portTcp": 502,
+            "timeOut": "1000",
+            "nameConn": "COM0"
+        },{
+            "typeConn": "TCP",
+            "Ncom": "6",
+            "speed": 9600,
+            "bit": 8,
+            "parity": "none",
+            "stopBit": 1,
+            "IP": "127.0.0.1",
+            "portTcp": 502,
+            "timeOut": "1000",
+            "nameConn": "COM1"
+        }
+    ]
+}

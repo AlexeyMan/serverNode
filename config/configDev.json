@@ -1,0 +1,131 @@
+{
+    "PW": [
+        {
+            "startAddres": "2",
+            "Nregistrs": "8",
+            "functionQuery": 3,
+            "pacet": [
+                {
+                    "startReg": 1,
+                    "name": "p_oil1",
+                    "description": "Давление масла",
+                    "unit": "Bar",
+                    "convert": "readInt16LE",
+                    "relation": "convertData * 2",                   
+                    "range":"100,100",
+                    "history":"1",
+                    "data":[]
+                },
+                {
+                    "name": "RPM2",
+                    "convert": "readInt16LE",
+                    "startReg": 3,
+                    "description": "Скорость двигателя",
+                    "data":[] 
+                }, 
+                {
+                    "name": "RPM3",
+                    "convert": "readInt16LE",
+                    "startReg": 5,
+                    "description": "Скорость двигателя",
+                    "data":[] 
+                }
+            ]
+        },
+        {
+            "startAddres": "6",
+            "Nregistrs": "8",
+            "functionQuery": 3,
+            "pacet": [
+                {
+                    "name": "p_oil4",
+                    "convert": "readInt16LE",
+                    "startReg": 1,
+                    "description": "Давление масла",
+                    "data":[] 
+                },
+                {
+                    "name": "RPM5",
+                    "convert": "readInt16LE",
+                    "startReg": 1,
+                    "description": "Скорость двигателя",
+                    "data":[] 
+                }
+            ]
+        },
+         {
+            "startAddres": "44",
+            "Nregistrs": "4",
+            "typeD": "PW",
+            "functionQuery": 3,
+            "pacet": [
+                {
+                    "name": "p_oil6",
+                    "convert": "readInt16LE",
+                    "startReg": 1,
+                    "description": "Давление масла",
+                    "data":[] 
+                },
+                {
+                    "name": "RPM7",
+                    "convert": "readInt16LE",
+                    "startReg": 1,
+                    "description": "Скорость двигателя",
+                    "data":[] 
+                }
+            ]
+        }
+    ],
+    "PN": [
+         {
+            "startAddres": "100",
+            "Nregistrs": "4",
+            "functionQuery": 3,
+            "pacet": [
+                {
+                    "name": "p_oilPN8",
+                    "convert": "readInt16LE",
+                    "startReg": 1,
+                    "description": "Давление масла",
+                    "data":[] 
+                },
+                {
+                    "name": "RPMPN9",
+                    "convert": "readInt16LE",
+                    "startReg": 0,
+                    "description": "Скорость двигателя",
+                    "data":[] 
+                }, 
+                {
+                    "name": "RPMPN10",
+                    "convert": "readInt16LE",
+                    "startReg": 0,
+                    "description": "Скорость двигателя",
+                    "data":[] 
+                }
+            ]
+        },
+        {
+            "startAddres": "20",
+            "Nregistrs": "10",
+            "functionQuery": 3,
+            "pacet": [
+                {
+                    "name": "p_olPN11",
+                    "convert": "readFloatBE",
+                    "startReg": 1,
+                    "description": "Давление масла",
+                    "data":[] 
+                },
+                {
+                    "name": "RPPN12",
+                    "convert": "readFloatBE",
+                    "startReg": 0,
+                    "description": "Скорость двигателя",
+                    "data":[] 
+                }
+            ]
+        
+        }
+    ]
+}
