@@ -1,4 +1,4 @@
-// Type 3: Persistent datastore with automatic loading
+// Type 3 Test2: Persistent datastore with automatic loading
 const Datastore = require('nedb');
 const jsfile = require('jsonfile');
 
