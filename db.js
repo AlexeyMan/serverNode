@@ -2,7 +2,7 @@
 const Datastore = require('nedb');
 const jsfile = require('jsonfile');
 
-const db = new Datastore({ filename: 'C:/serialModbus/datafile', autoload: true });
+const db = new Datastore({ filename: 'C:/serialNode/datafile', autoload: true });
 const fDev = './config/configDev.json';
 const pac = jsfile.readFileSync(fDev);
 db.persistence.setAutocompactionInterval(60000);
